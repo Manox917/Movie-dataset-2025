@@ -1,7 +1,7 @@
-SQL QUESTIONS 
+
 ## The TMDb database
 
-In this supplementary exam, you will be exploring [The Movie Database](https://www.themoviedb.org/) – an online movie and TV show database that houses some of the most popular movies and TV shows at your fingertips. The TMDb database supports 39 official languages used in over 180 countries daily and dates back all the way to 2008. 
+In this series, we will be exploring [The Movie Database](https://www.themoviedb.org/) – an online movie and TV show database that houses some of the most popular movies and TV shows at your fingertips. The TMDb database supports 39 official languages used in over 180 countries daily and dates back all the way to 2008. 
 
 
 <img src="https://github.com/Explore-AI/Pictures/blob/master/sql_tmdb.jpg?raw=true" width=80%/>
@@ -23,11 +23,11 @@ Before you begin, you need to prepare your SQL environment.  You can do this by 
 ```python
 # Load and activate the SQL extension to allow us to execute SQL in a Jupyter notebook. 
 # If you get an error here, make sure that mysql and pymysql are installed correctly. 
-
+# You can reload again the data.
 %reload_ext sql
 ```
 
-Next, go ahead and load your database. To do this, you will need to ensure you have downloaded the `TMDB.db` sqlite file from Athena and have stored it in a known location.
+Next, go ahead and load your database. To do this, you will need to ensure you have downloaded the `TMDB.db` sqlite file and have stored it in a known location.
 
 
 ```python
@@ -256,7 +256,7 @@ PRAGMA table_info(movies);
 
 
 
- What is the most recent movie Vin Diesel appeared in?
+ 1.What is the most recent movie Vin Diesel appeared in?
 
 
 ```sql
