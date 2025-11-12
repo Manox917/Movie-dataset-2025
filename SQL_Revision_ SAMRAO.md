@@ -1,5 +1,5 @@
 
-## The TMDb database
+## The TMDb Database
 
 In this series, we will be exploring [The Movie Database](https://www.themoviedb.org/) – an online movie and TV show database that houses some of the most popular movies and TV shows at your fingertips. The TMDb database supports 39 official languages used in over 180 countries daily and dates back all the way to 2008. 
 
